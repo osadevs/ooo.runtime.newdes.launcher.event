@@ -1,0 +1,37 @@
+<project name="Open Simulation Architecture"
+	xsi:schemaLocation="http://maven.apache.org/DECORATION/1.0.0 http://maven.apache.org/xsd/decoration-1.0.0.xsd">
+
+	<bannerLeft>
+		<name>Open Simulation Architecture</name>
+		<href>http://osa.inria.fr/</href>
+  	</bannerLeft>
+  	<bannerRight>
+		<name></name>
+  	</bannerRight>
+	<body>
+		<menu name="OSA">
+			<item name="Home" href="../index.html" />
+			<item name="Projects" href="../galaxy.html" />
+			<item name="Helloworld" href="../helloworld.html" />
+			<item name="Publications" href="../publications.html" />
+			<item name="About" href="../about.html"/>
+			<item name="Tips" href="../tips.html" />
+		</menu>
+		<menu name="Documentation">
+			<item name="Tutorial" href="../tutorial/tutorial.html"/>
+		</menu>
+		<menu name="Links">
+			<item name="OSA on INRIA's forge" href="http://osa.gforge.inria.fr"/>
+		</menu>
+		<menu ref="reports" />
+	</body>
+	<publishDate position="right" />
+	<version position="right" />
+	<skin>
+		<groupId>org.apache.maven.skins</groupId>
+		<artifactId>maven-application-skin</artifactId>
+		<version>1.0</version>
+    	<!-- <artifactId>maven-stylus-skin</artifactId> -->
+    	<!-- <version>1.4</version> -->
+	</skin>
+</project>
